@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    color: #222;
+}
+
+.cv {
+    max-width: 800px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+  
+header h1 {
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin: 0;
+    color: #333;
+}
+  
+header h2 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 5px 0 10px;
+    color: #555;
+}
+  
+header .position {
+    font-size: 18px;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h3 {
+    color: #444;
+    font-size: 18px;
+    border-left: 4px solid #999;
+    padding-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+ul {
+    margin: 5px 0 10px 20px;
+    padding: 0;
+}
+  
+ul li {
+    margin-bottom: 4px;
+}
+
+a {
+    color: #3366cc;
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+.personal-data p {
+    margin-left: 10px;
+}
+
+.education p {
+    margin-left: 10px;
+}
+
+.languages ul li strong {
+    color: #333;
+}
+
+.motivation p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.hobby ul {
+    list-style-type: "• ";
+    margin-left: 20px;
+}
+
+@media (max-width: 600px) {
+    .cv {
+      padding: 25px;
+    }
+  
+    header h1 {
+      font-size: 30px;
+    }
+  
+    header h2 {
+      font-size: 18px;
+    }
+  
+    .position {
+      font-size: 16px;
+    }
+}
