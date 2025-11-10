@@ -1,84 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="cv">
+<div class="cv-container">
+    <div class="cv-main-grid">
 
-        <header>
-          <h1>КРИКЛЮК</h1>
-          <h2>ДАРЬЯ АНАТОЛЬЕВНА</h2>
-        </header>
-    
-        <section class="personal-data">
-          <h3>ЛИЧНЫЕ ДАННЫЕ</h3>
-          <p><strong>Дата рождения:</strong> 22.02.2007</p>
-          <p><strong>Адрес:</strong> пер. Пархоменко 23</p>
-          <p><strong>Телефон:</strong> +373 673 44 414</p>
-          <p><strong>Email:</strong> <a href="mailto:dasakrikluk0@gmail.com">dasakrikluk0@gmail.com</a></p>
-        </section>
-    
-        <section class="qualities">
-          <h3>ЛИЧНЫЕ КАЧЕСТВА</h3>
-          <h4>Положительные:</h4>
-          <ul>
-            <li>Ответственность</li>
-            <li>Аккуратность</li>
-            <li>Трудолюбие</li>
-            <li>Высокая обучаемость</li>
-            <li>Креативность</li>
-          </ul>
-    
-          <h4>Отрицательные:</h4>
-          <ul>
-            <li>Перфекционизм</li>
-            <li>Излишняя раздражительность</li>
-            <li>Упрямство</li>
-          </ul>
-        </section>
-    
-        <section class="education">
-          <h3>ОБРАЗОВАНИЕ</h3>
-          <p><strong>Название среднего учебного заведения:</strong> ПУ ТЛ им. Н. В. Гоголя</p>
-          <p><strong>Период:</strong> 2013 — 2025</p>
-          <p><strong>Название высшего учебного заведения:</strong> Бельцкий Государственный Университет им. А. Руссо</p>
-          <p><strong>Период:</strong> 2025 — 2029</p>
-          <p><strong>Специальность:</strong>студент первого курса на IT специальности</p>
-        </section>
-    
-        <section class="languages">
-          <h3>ВЛАДЕНИЕ ЯЗЫКАМИ</h3>
-          <ul>
-            <li><strong>Русский язык:</strong> свободное владение</li>
-            <li><strong>Румынский язык:</strong> уровень B2</li>
-            <li><strong>Английский язык:</strong> уровень B1</li>
-          </ul>
-        </section>
-    
-        <section class="motivation">
-          <h3>ПОЧЕМУ Я ХОЧУ РАБОТАТЬ В СФЕРЕ ГРАФИЧЕСКОГО ДИЗАЙНА</h3>
-          <p>Данная сфера позволит выражать свои идеи и индивидуальность через визуальные решения.</p>
-          <p>Данная сфера привлекает тем, что она не стоит на месте, а идёт в ногу со временем и постоянно развивается.</p>
-          <p>Данная сфера позволит воздействовать на человеческое мировоззрение, а именно — вызывать положительные эмоции у людей.</p>
-        </section>
-    
-        <section class="hobby">
-          <h3>ХОББИ И УВЛЕЧЕНИЯ</h3>
-          <ul>
-            <li>Чтение художественной и научной литературы</li>
-            <li>Рисование</li>
-            <li>Просмотр обучающих видео</li>
-            <li>Компьютерные игры</li>
-          </ul>
-        </section>
-    
-    </section>
-        
+        <div class="cv-left">
+            <div class="cv-photo">
+                <img src="My image.jpg" alt="Me)"/>
+            </div>
+
+            <h1>
+                КРИКЛЮК<br>
+                ДАРЬЯ<br>
+                АНАТОЛЬЕВНА
+            </h1>
+
+            <div class="cv-section cv-personal">
+                <div class="cv-section-title">Личные данные:</div>
+                <p><span class="cv-label">Дата рождения:</span><br>22.02.2007</p>
+                <p><span class="cv-label">Адрес:</span><br>пер. Пархоменко 23</p>
+                <p><span class="cv-label">Телефон:</span><br>+373 673 44 414</p>
+                <p><span class="cv-label">Email:</span><br>dasakrikluk0@gmail.com</p>
+            </div>
+
+            <div class="cv-section cv-qualities">
+                <div class="cv-section-title">Личные качества:</div>
+                <div class="cv-qualities-list">
+                    <span class="cv-label">Положительные:</span>
+                    <ul>
+                        <li>Ответственность</li>
+                        <li>Аккуратность во время работы</li>
+                        <li>Трудолюбие</li>
+                        <li>Высокая обучаемость</li>
+                        <li>Креативность</li>
+                    </ul>
+                    <span class="cv-label">Отрицательные:</span>
+                    <ul>
+                        <li>Перфекционизм</li>
+                        <li>Излишняя раздражительность</li>
+                        <li>Упрямство</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cv-right">
+            <div class="cv-title">Графический дизайнер</div>
+
+            <div class="cv-section">
+                <span class="cv-section-title">Образование:</span>
+                <div class="cv-edu">
+                    <p><a href="#">Название среднего учебного заведения:</a> ПУ ТЛ им. Н. В. Гоголя — [2013 — 2025]</p>
+                    <p><a href="#">Название высшего учебного заведения:</a> Бельцкий Государственный Университет им. А. Руссо — [2025 — 2029]</p>
+                    <p><span class="cv-label">Специальность:</span> студент первого курса на IT специальности</p>
+                </div>
+            </div>
+
+            <div class="cv-section">
+                <span class="cv-section-title">Владение языками:</span>
+                <p><a href="#">Русский язык:</a> уровень С1</p>
+                <p><a href="#">Румынский язык:</a> уровень B2</p>
+                <p><a href="#">Английский язык:</a> уровень B1</p>
+                <p><a href="#">Немецкий язык:</a> уровень А2</p>
+            </div>
+
+            <div class="cv-section">
+                <span class="cv-section-title">Хобби и увлечения:</span>
+                <ul>
+                    <li>Чтение художественной и научной литературы</li>
+                    <li>Рисование</li>
+                    <li>Просмотр обучающих видео</li>
+                    <li>Компьютерные игры</li>
+                </ul>
+            </div>
+
+            <div class="cv-section">
+                <span class="cv-section-title">Почему я хочу работать в сфере дизайна?</span>
+                <ul>
+                    <li>Данная сфера позволит выражать свои идеи и индивидуальность через визуальные решения.</li>
+                    <li>Данная сфера привлекает тем, что она не стоит на месте, а идёт в ногу со временем и постоянно развивается.</li>
+                    <li>Данная сфера позволит воздействовать на человеческое мировоззрение, а именно, вызывать положительные эмоции у людей.</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</div>
 </body>
 
 </html>
