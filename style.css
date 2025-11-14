@@ -71,6 +71,11 @@ body {
     font-size: 0.95em;
 }
 
+.cv-section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .cv-section p, .cv-section ul {
     margin-top: 2px;
     margin-bottom: 10px;
@@ -117,6 +122,14 @@ body {
 
 .cv-right ul li {
     margin-bottom: 7px;
+}
+
+.cv-footer {
+    background: #353537;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
 }
 
 @media (max-width: 860px) {
