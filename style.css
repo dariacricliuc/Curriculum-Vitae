@@ -1,0 +1,130 @@
+body {
+    background: #f0eff2;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.cv-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cv-main-grid {
+    display: grid;
+    grid-template-columns: 330px 600px;
+    background: white;
+    margin: 40px 0;
+}
+
+.cv-sidebar {
+    background: #353537;
+    color: #fff;
+    padding: 32px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 24px;
+    border: 2px solid #ffffff;
+}
+
+.cv-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cv-sidebar h1 {
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 27px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.cv-section-title {
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 6px;
+    margin-top: 19px;
+    text-transform: uppercase;
+}
+
+.cv-label {
+    font-weight: bold;
+    color: #d2d0d5;
+}
+
+.cv-sidebar .cv-label {
+    color: #d2d0d5;
+    font-size: 0.95em;
+}
+
+.cv-section {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cv-section p, .cv-section ul {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.cv-section ul {
+    padding-left: 18px;
+}
+
+.cv-qualities-list ul {
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.cv-qualities-list .cv-label {
+    margin-top: 8px;
+    display: block;
+}
+
+.cv-content {
+    background: #e5e3e6;
+    padding: 32px;
+    color: #232222;
+}
+
+.cv-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+}
+
+.cv-content p a, .cv-content p .cv-label, .cv-content ul a {
+    color: #232222;
+    font-weight: bold;
+}
+
+.cv-content ul {
+    margin-top: 5px;
+}
+
+.cv-content ul li {
+    margin-bottom: 7px;
+}
+
+.cv-footer {
+    background: #353537;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+}
